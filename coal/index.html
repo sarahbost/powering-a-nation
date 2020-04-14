@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Powering a Nation</title>
+  <link rel="stylesheet" href="./../css/style.css">
+  <script src="./../js/script.js" defer></script>
+</head>
+
+<!-- ID for background image on the body-->
+
+<body id="coal-card">
+
+  <!-- Navigation Element-->
+  <nav>
+    <a href="./../index.html"><img src="./../images/logo-transparent.png" title="homepage" alt="logo"></a>
+    <img id="hamburger" src="./../images//menu.svg" alt="menu">
+    <div id="overlay"></div>
+    <ul id="menu">
+      <li><a href="./../coal/index.html" title="coal" style="color: #456EA4">Coal</a></li>
+      <li><a href="./../wind/index.html" title="wind">Wind</a></li>
+      <li><a href="./../electric/index.html" title="electric">Electric</a></li>
+      <li><a href="./../credits/index.html" title="credits">Credits</a></li>
+
+    </ul>
+  </nav>
+
+  <main>
+
+    <div class="article-page">
+
+      <!-- Card container-->
+      <article class="card">
+
+        <h1>Debating Coal's Future</h1>
+
+
+        <!-- Embed video container-->
+        <div class="container">
+
+          <!-- Allows for dynamic resizing-->
+          <div class="aspect-ratio">
+
+            <!-- iFrame link to video-->
+            <iframe src="https://player.vimeo.com/video/7645302" width="640" height="360" frameborder="0"
+              allow="autoplay; fullscreen" allowfullscreen></iframe>
+          </div>
+        </div>
+
+
+        <!-- Coal Description-->
+        <p id="coal-paragraph">Since 2001, U.S. energy companies have proposed more than 150 new coal plants. But a
+          loose
+          network of environmental activists, aided by uncertain economic conditions, has forced plans for more than 100
+          of the plants to be abandoned. Dozens more are clogged up in the court systems.
+
+          One such coal fight is unfolding in Meigs County, Ohio, which is already surrounded by four coal-fired power
+          plants. American Municipal Power has proposed building a new Meigs County coal plant, slated to begin
+          construction late this year or in early 2010.
+
+          The following information provides background to explain why coal plants are at the center of a national
+          debate
+          over energy production and consumption.</p>
+
+
+
+        <!-- Coal Q and A-->
+
+        <div class="center-bar">
+
+
+          <!-- Creates a Tab Button for eaach question and contaians them in a div-->
+          <div class="tab">
+            <button class="tablinks" id="coal-elec">Coal and Electricity</button>
+            <button class="tablinks" id="coal-plants">Coal Plants</button>
+            <button class="tablinks" id="health-effects">Health Effects</button>
+            <button class="tablinks" id="health-problems">Health Problems</button>
+            <button class="tablinks" id="air-quality">Air Quality</button>
+            <button class="tablinks" id="coal-jobs">Jobs</button>
+            <button class="tablinks" id="whats-next">What's Next</button>
+          </div>
+
+
+          <!--Div for each question and answer-->
+          <div id="coalelectricity" class="tabcontent">
+            <h3 class="question">What’s the connection between coal and electricity? </h3>
+            <p class="answer">Nearly 50 percent of U.S. electricity comes from coal. Coal-fired power plants burn coal
+              to
+              generate steam, which is used to turn the turbines of an electrical generator.
+              The U.S. has one of the largest coal reserves in the world and burns it at about 600 plants across the
+              nation. Generating electricity from coal is common in the South and in the heartland, but less often used
+              in
+              regions such as the West Coast, where hydroelectricity and natural gas are bigger sources of power.
+              If coal is so important to electricity generation, why are some people concerned about building new
+              coal-fired power plants?
+              Coal plants emit carbon dioxide, a major ingredient in climate change.
+              In recent years, NASA climate scientist James Hansen has advocated a moratorium on building new coal
+              plants
+              until technology is developed to prevent the carbon dioxide from escaping into the atmosphere.
+              Hansen has warned that continuing to release carbon dioxide at current rates – even just for the next 10
+              years – will create “a different planet – one without sea ice in the Arctic; with worldwide, repeated
+              coastal tragedies associated with storms and a continuously rising sea level.”
+              The proposed American Municipal Power plant in Meigs County would release an estimated 5.5 million tons of
+              carbon dioxide annually, according to CARMA, a nonprofit group. </p>
+          </div>
+
+          <div id="plants" class="tabcontent">
+            <h3 class="question">Why are there so many electricity-generating coal plants near Meigs County? </h3>
+            <p class="answer">Coal has been a dominant industry for most of the region’s history. The county’s newest
+              mine
+              began producing coal last February.
+              An experimental site for carbon capture and sequestration, a technology to store carbon dioxide
+              underground,
+              is under construction in West Virginia near Meigs County's southern border. In addition, a coal-to-liquids
+              facility and two other coal-fired power plants have been proposed for the region, although at least some
+              of
+              those plans appear to be on hold.
+              Meanwhile, Meigs County is one of the poorest counties in Ohio, according to 2000 U.S. Census data. Elisa
+              Young, a Meigs County resident who has organized opposition to the new plant, argues that poverty reduces
+              local opposition to the coal industry.
+              “When you have an economy that's entirely wrapped around coal, you can't speak out about it,” she says.
+            </p>
+          </div>
+
+          <div id="healtheffects" class="tabcontent">
+            <h3 class="question">Some Meigs County residents are concerned about the health effects of coal plants. Why?
+            </h3>
+            <p class="answer">In 2007, the four existing coal plants near Meigs County released millions of pounds of
+              toxic chemicals, including arsenic, chromium, manganese, mercury, sulfuric acid aerosols and selenium,
+              according to the Environmental Protection Agency.
+              Each of these chemicals has been linked to human health problems, such as cancer, gastrointestinal
+              disorders, impaired motor skills and neurological damage.
+              Kent Carson, a spokesperson for American Municipal Power, said the proposed plant will use new technology
+              to
+              control pollutants.
+              “This will be the cleanest facility of its type in the state,” he said.</p>
+          </div>
+
+          <div id="healthproblems" class="tabcontent">
+            <h3 class="question">Can it be proved that the coal plants are responsible for health problems in Meigs
+              County?</h3>
+            <p class="answer"> It can be hard to prove that any one of the chemicals caused health problems of a
+              particular individual.
+              “We’re exposed to a soup of chemicals,” said Kevin Crist, director of the Center for Air Quality at Ohio
+              University. Crist said health problems can be influenced by interactions between chemicals, as well as by
+              lifestyle factors.
+              In addition, low income – a common characteristic in Meigs County – is correlated with health problems.
+              One
+              reason is that poor people are more likely to smoke than their wealthier counterparts. More than 30
+              percent
+              of adult residents of Southeast Ohio smoke, compared to only about 25 percent of residents of other Ohio
+              counties.
+              Crist said tall smokestacks on the existing plants probably disperse most pollutants away from Meigs
+              County.
+              But he said it is impossible to know for sure what residents are being exposed to, because no agency
+              monitors the county’s air. </p>
+          </div>
+
+          <div id="airquality" class="tabcontent">
+            <h3 class="question">So what do we know about air quality and health in Meigs County? </h3>
+            <p class="answer"> An analysis by USA Today estimated that the air quality at Southern Elementary School in
+              Meigs County is worse than the air quality at 97 percent of the nation's schools. USA Today identified two
+              of the coal plants near Meigs County as major contributors to pollution at the school.
+              In addition, men in Meigs County have the lowest life expectancy among men in any Ohio county, according
+              to
+              data compiled by Harvard University (women ranked 26th worst of 88 counties).
+              Meigs County also has the highest death rate of any Ohio county for lung and bronchus cancer, according to
+              the Ohio Department of Health. </p>
+          </div>
+
+          <div id="jobs" class="tabcontent">
+            <h3 class="question">Despite the suspected health effects, wouldn’t a new plant create much-needed jobs?
+            </h3>
+            <p class="answer"> Blue-collar labor is especially important in Meigs County, where fewer than 5 percent of
+              adult residents hold college degrees and more than 25 percent have no high school diploma, according to
+              the
+              Ohio Office of Policy, Research and Strategic Planning. In 2007, Meigs County's median income was $27,287,
+              about half the national average.
+              Many Meigs County residents support the new plant for the jobs it may bring to the community. Construction
+              worker Greg Sheets has testified in favor of the plant at public hearings.
+              “My family will benefit by me going up there and working,” he said. “If I reached in your pocket and took
+              $200,000 out of your pocket, would you like it?” he said, referring to the income he estimated he could
+              earn
+              during the four years it would take to build the plant.
+              But no one can guarantee how many jobs will actually go to Meigs County residents or how much they will
+              pay.
+              “We all know that not all the workers are going to come from Meigs County,” said Sheets, the construction
+              worker. “They’ll be from all over the country.”</p>
+          </div>
+
+          <div id="next" class="tabcontent">
+            <h3 class="question">What’s next? </h3>
+            <p class="answer"> Before construction can begin on a new coal plant, an energy company must receive
+              pollution
+              permits from a state regulatory authority.
+              Carson, the American Municipal Power spokesman, said his utility has received all the permits it needs and
+              that construction on the plant will start in late 2009 or early 2010.
+              Opponents of the plant have appealed the plant’s permits. The state of Ohio will allow construction to
+              proceed during the appeals process.</p>
+          </div>
+        </div>
+
+        <!-- Break between the bottom of of the article so the grey was not at the bottom-->
+        <div>
+          <h1>Click the tabs to learn more!</h1>
+
+          <br>
+        </div>
+
+      </article>
+
+    </div>
+  </main>
+
+  <!-- Footer-->
+  <footer>
+    <p>This website was made by
+      Sarah Bost
+      in
+      <a href="https://mejo187.com" title="MEJO 187 Homepage">Foundations of Interactive Media</a>
+      at
+      <a href="https://unc.edu" title="MEJO 187 Homepage">The University of North Carolina at Chapel Hill</a>.
+  </footer>
+
+</body>
+
+
+
+</html>

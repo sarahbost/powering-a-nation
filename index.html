@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Powering a Nation</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Navigation Element-->
+  <nav>
+    <a href="./index.html"><img src="./images/logo-transparent.png" title="homepage" alt="logo"></a>
+    <img id="hamburger" src="./images//menu.svg" alt="menu">
+    <div id="overlay"></div>
+    <ul id="menu">
+      <li><a href="./coal/index.html" title="coal">Coal</a></li>
+      <li><a href="./wind/index.html" title="wind">Wind</a></li>
+      <li><a href="./electric/index.html" title="electric">Electric</a></li>
+      <li><a href="./credits/index.html" title="credits">Credits</a></li>
+    </ul>
+  </nav>
+
+
+
+  <!--Main compoenent of page-->
+
+  <main>
+
+
+
+    <!--Header with map background and title-->
+    <header>
+
+      <!--Space to allow for additional margin above translucent div without effecting the size of the map and making the container bigger -->
+      <div id="spacer"></div>
+
+      <!--Translucent box above map with title and subtitle  -->
+      <div id="homepage-div">
+        <p id="intro-title">Powering a Nation</p>
+        <p id="intro-subtitle">A Quest for Energy in a Changing USA</p>
+      </div>
+
+    </header>
+
+    <!--Spacing between the map and the div-->
+    <br>
+    <br>
+
+
+    <!--Divider between header and cards that has American Flag and additional introduction information  -->
+    <div id="intro-divider">
+
+      <!--American Flag Image-->
+      <div>
+        <img id="flag" src="./images/american-flag.jpg" alt="flag">
+      </div>
+
+
+      <!--Text beside flaag, overall introductory text-->
+      <div>
+        <br>
+        <h4>Energy makes America go.</h2>
+          <br>
+          <h4>But the way we get it is more complex and vulnerable than most of us realize.</h3>
+            <h4>The truth about energy is that change won't come easily.</h3>
+              <br>
+              <h5>Here, you can explore America’s energy stories, meet the people behind the debate and join the
+                conversation about our future.Here, you can explore America’s energy stories, meet the people behind the
+                debate and join the conversation about our future.</h3>
+      </div>
+
+    </div>
+
+
+
+    <!--Catagories of Energy-->
+
+    <!--Grid with 3 columns and 1 row,
+    each card is a link that can redirect to the respective page-->
+    <section class="grid-1-3">
+
+
+      <!--Wind-->
+      <a class="cardlinks" href="./wind/index.html" title="wind">
+        <article class="card homepage-card">
+
+          <figure>
+            <img src="./images/wind-background.jpg" alt="Wind">
+          </figure>
+
+          <section>
+            <h3>Roping the Wind</h3>
+            <p>Once considered a burden, the wind is now reviving the Texas town of Roscoe by creating new jobs and
+              bringing people back, giving a second chance to this once-dying community. </p>
+          </section>
+        </article>
+      </a>
+
+      <!--Coal-->
+      <a class="cardlinks" href="./coal/index.html" title="coal">
+
+        <!--Homepage card for orange hover formatting-->
+        <article class="card homepage-card">
+
+          <figure>
+            <img src="./images/coal-card.png" alt="Coal">
+          </figure>
+
+          <section>
+            <h3>Debating Coal's Future</h3>
+            <p>The residents of Meigs County, Ohio, live beneath the towering smokestacks of four coal-fired power
+              plants. A fifth plant has been proposed, the latest salvo in a battle over the way the U.S. gets
+              electricity. </p>
+          </section>
+
+        </article>
+      </a>
+      <!--Electric-->
+      <a class="cardlinks" href="./electric/index.html" title="grid">
+        <article class="card homepage-card">
+
+          <figure>
+            <img src="./images/grid-card.png" alt="Electric">
+          </figure>
+
+          <section>
+            <h3>Down the Lines</h3>
+            <p>The U.S. energy grid is in trouble. The crumbling infrastructure and lag in construction of power lines
+              have set the stage for more serious and frequent blackouts in the coming years. </p>
+          </section>
+
+        </article>
+      </a>
+
+    </section>
+
+
+  </main>
+
+
+  <!--Footer-->
+  <footer>
+    <p>This website was made by Sarah Bost in
+      <a href="https://mejo187.com" title="MEJO 187 Homepage">Foundations of Interactive Media</a>
+      at
+      <a href="https://unc.edu" title="UNC Homepage">The University of North Carolina at Chapel Hill</a>.
+  </footer>
+
+
+</body>
+
+
+
+</html>
